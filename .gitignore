@@ -1,0 +1,28 @@
+# Secrets
+.env
+
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Local database
+*.duckdb
+*.db
+
+# Generated results
+outputs/
+data/
+
+
+# macOS
+.DS_Store
+
+
+
+# IDE
+.idea/
+.vscode/

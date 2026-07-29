@@ -1,0 +1,6 @@
+duckdb
+pandas
+openai
+python-dotenv
+sqlglot
+fpdf
