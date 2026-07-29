@@ -121,7 +121,6 @@ def main() -> None:
     print(f"Описание сохранено: {ANALYSIS_FILE}")
 
     print_section("9. Предложенные DAX-меры")
-    measure_pdf = ''
     if not analysis["dax_measures"]:
         print("Меры не предложены.")
     else:
