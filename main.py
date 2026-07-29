@@ -12,12 +12,12 @@ OUTPUT_FILE = OUTPUT_DIR / "result.csv"
 ANALYSIS_FILE = OUTPUT_DIR / "analysis.json"
 
 
-def print_section(title: str) -> None:
+def print_section(title):
     print()
     print(title)
 
 
-def main() -> None:
+def main():
     OUTPUT_DIR.mkdir(
         parents=True,
         exist_ok=True,

@@ -45,14 +45,6 @@ FORBIDDEN_FUNCTIONS = {
 
 
 def validate_sql(sql: str) -> str:
-    """
-    Проверяет:
-    - один SQL statement;
-    - только SELECT;
-    - отсутствие опасных операций;
-    - использование только разрешённых таблиц;
-    - отсутствие функций чтения внешних файлов.
-    """
 
     normalized = sql.strip().rstrip(";").strip()
 
